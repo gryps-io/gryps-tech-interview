@@ -24,10 +24,11 @@ Returns: {“id”: [10, 11, 12, 13], “item_id”: [1, 2, 2, 6], “values2”
     B) Write an integration test for this
 4) Write a function called filter_string(list_of_strings, regex_filter). The function should return all items in list_of_strings that match regex_filter.  
     A) Write a unit test for this
-5) Write a class with the following functions:
+5) Write a class with the following functions `basic_class.py`:  
     A) Insert(item): Insert the item into the class storage container. Should it have a return value?  
     B) Retrieve(<something>): Retrieve an item from the class by some mechanism  
     C) Check(item): Check if an item is already in the object  
     D) Size(): Return the number of items in the object  
     E) Write a unit test for the class  
-    F) Discuss the performance of the class and whether anything could be more efficient
+    F) Discuss the performance of the class and whether anything could be more efficient  
+
