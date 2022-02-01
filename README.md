@@ -1,9 +1,9 @@
 # Gryps Tech Interview Challenge
 ## Setup
-Clone this project
-Create a `virtualenv` in the project
-Start the `virtualenv`
-Install dependencies with `pip3 install -r requirements.txt`
+Clone this project  
+Create a `virtualenv` in the project  
+Start the `virtualenv`  
+Install dependencies with `pip3 install -r requirements.txt`  
 
 ## Questions
 Warmup) Write a function called `warmup(count)` that prints numbers starting a 1 to `count` including count.
