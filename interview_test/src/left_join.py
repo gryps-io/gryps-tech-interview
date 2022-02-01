@@ -6,3 +6,9 @@ def left_join(left_dict,
               keys_to_include):
     return {"message": "test value"}
 # End your function
+
+# Your parallelism wrapper here
+def wrap_left_join(queue):
+    # call left_join
+    return # result
+# end parallelism wrapper
