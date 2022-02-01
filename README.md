@@ -12,7 +12,7 @@ Left_dict = {“id”: [10, 11, 12, 13], “item_id”: [1,2,2,6], “values1”
 Right_dict = {“item_id”: [1,2,3,4], “values2”: [“z”, “x”, “y”, “w”]}
 Left_key_to_match = “item_id”
 Right_key_to_match = “item_id”
-Keys_to_indluce = [“id”, “item_id”,  “values2”]
+Keys_to_include = [“id”, “item_id”,  “values2”]
 Returns: {“id”: [10, 11, 12, 13], “item_id”: [1, 2, 2, 6], “values2”: [“z”, “x”, “x”, None]}
 ```
 
