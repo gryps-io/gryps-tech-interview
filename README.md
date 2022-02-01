@@ -1,4 +1,11 @@
 # Gryps Tech Interview Challenge
+## Setup
+Clone this project
+Create a `virtualenv` in the project
+Start the `virtualenv`
+Install dependencies with `pip3 install -r requirements.txt`
+
+## Questions
 Warmup) Write a function called `warmup(count)` that prints numbers starting a 1 to `count` including count.
 
 1) Write a function called `left_join(left_dict, right_dict, left_key_to_match, right_key_to_match, keys_to_include)` in `left_join.py`  
