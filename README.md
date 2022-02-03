@@ -8,7 +8,7 @@ Install dependencies with `pip3 install -r requirements.txt`
 ## Questions
 Warmup) Write a function called `warmup(count)` that prints numbers starting a 1 to `count` including count.
 
-1) Write a function called `left_join(left_dict, right_dict, left_key_to_match, right_key_to_match, keys_to_include)` in `left_join.py`  
+1) Write a function called `left_join(left_dict, right_dict, left_key_to_match, right_key_to_match, keys_to_include)` in `interview_test/src/left_join.py`  
     A) That takes the input dicts and assumes each key in the dicts contains an array. The function should perform a left join operation. A left join should perform a join starting with `left_dict` and including any keys in `keys_to_include`. Then, it should fetch any keys from `right_dict` in `keys_to_include` where `left_key_to_match == right_key_to_match`. Keys in `keys_to_include` with no match should have None in the returned item.   
 
     B) For further info see: https://www.mysqltutorial.org/mysql-left-join.aspx
@@ -29,7 +29,7 @@ Returns: {“id”: [10, 11, 12, 13], “item_id”: [1, 2, 2, 6], “values2”
     A) Using the `Threading` or `Multiprocessing` libraries, create a program that submits to left_join asynchronously. `left_join.py`  
     B) Write an integration test for this  
 3) *The following are based on the result from “1”*  
-    A) Using `Flask`, write a completely different service that processes the data in JSON via a POST request  
+    A) Using `Flask`, write a completely different service that processes the data in JSON via a POST request. `interview_test/src/app.py`  
     B) Write an integration test for this using `Requests` (or another appropriate library)
 4) Write a function called `filter_string(list_of_strings, regex_filter)`. The function should return all items in `list_of_strings` that match `regex_filter`.  
     A) Write a unit test for this

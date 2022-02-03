@@ -1,3 +1,3 @@
 pip3 install -r requirements.txt
-cd src
-flask run
+cd interview_test/src
+python3 app.py
