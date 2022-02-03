@@ -1,3 +1,4 @@
+from distutils.log import debug
 import json
 from flask import Flask, request, jsonify, make_response
 from left_join import left_join
@@ -22,3 +23,5 @@ def make_request():
                         right_key_to_match,
                         keys_to_include)
     return make_response(jsonify(result), 200)
+
+app.run(debug=True)
